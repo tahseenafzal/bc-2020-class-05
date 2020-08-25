@@ -6,14 +6,14 @@ const Child = () => {
 
   return (
     <div>
-      <h1>Counter App ContextApi</h1>
+      <h1>Counter Update using ContextApi</h1>
       <h2>Counter Value: {counterValue[0]}</h2>
       <button
         onClick={() => {
           counterValue[1](++counterValue[0]);
         }}
       >
-        Increment
+        Increment Context
       </button>
     </div>
   );
